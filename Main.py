@@ -3,9 +3,12 @@ from flask import Flask, jsonify, request
 from flasgger import Swagger
 from sklearn.externals import joblib
 import numpy as np
+from flask_cors import CORS
+
 
 app = Flask(__name__)
 Swagger(app)
+CORS(app)
 
 
 
