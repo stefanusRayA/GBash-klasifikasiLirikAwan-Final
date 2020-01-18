@@ -1,4 +1,4 @@
-from normalization import normalize_corpus
+#from normalization import normalize_corpus
 from flask import Flask, jsonify, request
 from flasgger import Swagger
 from sklearn.externals import joblib
@@ -36,7 +36,7 @@ def predict():
     new_task = request.get_json()
     text = new_task['text']
     X_New = np.array([text])
-    X_New=normalize_corpus(X_New)
+    #X_New=normalize_corpus(X_New)
 
 
     pipe = joblib.load('neuralNetworkClassifier.pkl')
