@@ -51,4 +51,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(debug=True) #debug=True kalau deploy ga usah pakai ini dia print error
+    app.run() #debug=True kalau deploy ga usah pakai ini dia print error
