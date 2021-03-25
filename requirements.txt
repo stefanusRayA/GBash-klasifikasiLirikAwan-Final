@@ -25,7 +25,7 @@ pysingleton==0.2.1
 python-dateutil==2.7.5
 python-reuters==0.2
 pytz==2018.7
-PyYAML==3.13
+PyYAML==5.4
 scikit-learn==0.20.1
 scipy==1.1.0
 singledispatch==3.4.0.3
