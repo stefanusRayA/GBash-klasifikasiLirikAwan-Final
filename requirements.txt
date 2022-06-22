@@ -17,7 +17,7 @@ mistune==0.8.4
 mkl-fft==1.0.6
 mkl-random==1.0.1
 nltk==3.4
-numpy==1.15.4
+numpy==1.22.0
 pandas==0.23.4
 pipfile==0.0.2
 progressbar==2.2
